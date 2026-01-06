@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f4f8;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #0a66c2;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header p {
+  margin: 5px 0 0 0;
+  font-size: 1.2em;
+}
+
+/* Sections */
+section {
+  padding: 25px 20px;
+  margin: 20px auto;
+  background: white;
+  max-width: 900px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Section Titles */
+h2 {
+  color: #0a66c2;
+  border-bottom: 2px solid #0a66c2;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+/* Skills badges */
+.skill-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill {
+  background-color: #ffdd57;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+/* Project Cards */
+.project-card {
+  background-color: #e6f0ff;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* Contact Button */
+#contactBtn {
+  background-color: #0a66c2;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+#contactBtn:hover {
+  background-color: #0052cc;
+}
+
+/* Links */
+a {
+  color: #0a66c2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+  color: white;
+  margin-top: 30px;
+}
